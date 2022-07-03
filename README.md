@@ -74,3 +74,9 @@ https://www.delftstack.com/zh-tw/howto/react/react-fonts/
 
 建立分支 免費瀏覽
 https://rexhung0302.github.io/2021/09/28/20210928/
+
+"homepage": "https://marsting.github.io/ting",
+
+,
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"

@@ -1,0 +1,35 @@
+.nav{
+    height: 104px;
+    /* background: rgba(255, 192, 203, 0.236); */
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+.navLine{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.pinkN, .yellowN ,.blueN {
+    width: 50px;
+    height: 50px;
+    border-radius:50px ;
+    margin: 1.5rem;
+   
+}
+.pinkN{
+    background: rgba(250, 0, 255, 0.58);
+}
+.yellowN{
+    background: #FFF736;;
+}
+.blueN{
+    background: #39CAF7;;
+}
+.NBtn{
+    display: flex;
+    
+}
+.titleN{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 4rem;
+}

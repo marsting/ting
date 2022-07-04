@@ -1,6 +1,33 @@
-.Ccontain{
-    margin: 0 auto;
-}
+
 .cPic{
     width: 40%;
+    margin-right: 7rem;
+}
+.ccontact{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.ccontent{
+    margin-top: 5rem;
+    /* margin-left: 5rem; */
+    /* padding: 0 5rem; */
+    text-align: center;
+}
+.lineS{
+    width:8rem;
+    height: 10%;
+    border-right: solid rgb(119, 119, 119) 4px;
+    margin: 2rem 0rem;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+.info p{
+    padding-left: 1rem;
+    font-size: 1.5rem;
 }

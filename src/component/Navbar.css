@@ -1,7 +1,10 @@
-.nav{
+
+.navB{
     height: 104px;
-    /* background: rgba(255, 192, 203, 0.236); */
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    /* background: rgba(255, 192, 203, 0.236); */
+    background: #DBD3D4;
 }
 .navLine{
     height: 100%;
@@ -11,25 +14,66 @@
 .pinkN, .yellowN ,.blueN {
     width: 50px;
     height: 50px;
-    border-radius:50px ;
-    margin: 1.5rem;
-   
+    /* border-radius:50px ; */
+    margin-right: 6rem;
+    margin-top: 2rem;
+    line-height: 3rem;
+    padding-left: 1rem;   
+    color: transparent;
+}
+.pinkN p, .yellowN p ,.blueN p {
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    
 }
 .pinkN{
     background: rgba(250, 0, 255, 0.58);
+    transition: background .2s linear, border-radius .3s ease-in;
+}
+.pinkN:hover{
+    background-image: ;
+    border-radius: 50%;
+    transition: .5s;
+    color: #545454;
 }
 .yellowN{
-    background: #FFF736;;
+    background: #fff700;
+    transition: background .2s linear, border-radius .3s ease-in;
+
+}
+.yellowN:hover{
+    border-radius: 50%;
+    transition: .5s;
+    color: #545454;
+
 }
 .blueN{
-    background: #39CAF7;;
+    background: #00ddff;
+    transition: background .2s linear, border-radius .3s ease-in;
+
+}
+.blueN:hover{
+    border-radius: 50%;
+    transition: .5s;
+    color: #545454;
+    
 }
 .NBtn{
     display: flex;
+    margin-right: 2rem;
     
 }
 .titleN{
     font-size: 2rem;
     font-weight: bold;
     margin-left: 4rem;
+    margin-top: 2rem;
+    /* line-height: 6rem; */
+    color: #545454;
+
+}
+.titleN:hover{
+    color: rgb(239, 104, 127);
+    transition: .5s;
+
 }

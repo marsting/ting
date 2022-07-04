@@ -1,16 +1,16 @@
 import React from 'react';
-import './Project.css'
 
-function Project (){
+
+function Home (){
     return(
         <>
             <div className='container'>
         <div className='Ccontain'>
-            <img className='cPic' src={require('../img/nolose.png')} alt="" ></img>
+            <h1>welcome my web</h1>
         </div>
 
         </div>
         </>
     )
 }
-    export default Project
+    export default Home

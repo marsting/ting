@@ -15,8 +15,8 @@ function Navbar (){
             <p className='titleN'> CHU</p>
             <div className='NBtn'>
          
-                <div className='pinkN'></div>
-                <button onClick={routeChange} className='yellowN'></button>
+                <Link to="/contact"><div className='pinkN'></div></Link>
+               <Link to="/Project"> <div className='yellowN'></div></Link>
                 <div className='blueN'></div>
             </div>
         </div>

@@ -9,13 +9,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
+import Home from './page/home';
 //Contact
 import Contact from './page/Contact';
 //project
 import Project from './page/Project';
-import Home from './page/home';
+import ProjectCoffee from './page/ProjectCoffee';
+import ProjectBurner from './page/ProjectBurner';
 //reseum
 import Reseum from './page/Reseum';
+
 
 function App() {
   return (
@@ -27,6 +30,12 @@ function App() {
     <Routes >
         <Route>
           <Route path="/contact" element={<Contact/>}/>
+        </Route>
+        <Route>
+          <Route path="/project/coffee" element={<ProjectCoffee/>}/>
+        </Route>
+        <Route>
+          <Route path="/project/burner" element={<ProjectBurner/>}/>
         </Route>
         <Route>
           <Route path="/project" element={<Project/>}/>

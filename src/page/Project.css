@@ -1,13 +1,17 @@
+.pC{
+    height: 790px;
+}
 .Ptitle{
     width: 40%;
-   margin-left: 30%;
+    margin-left: 30%;
     margin-top: 10rem;
 }
 .PSelect{
     display: flex;
-    justify-content: center; 
-    gap: 8rem;
+    justify-content: space-around; 
+    
     margin-top: 4rem;
+    margin-left: -5rem;
 }
 .PSelect h2{
     /* font-weight: bold; */
@@ -15,11 +19,48 @@
 .PSelect h2:hover{
     color: yellow;
 }
+
+@keyframes rotation1 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  @keyframes rotation2 {
+    from {
+      transform: rotate(359deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+.BACKP1{
+    width: 360px;
+    position: absolute;
+    animation: rotation1 20s infinite linear;
+}
+.BACKP2{
+    width: 360px;
+    position: absolute;
+    animation: rotation2 20s infinite linear;
+    z-index: 1;
+}
+
 .SLOGO{
-    width: 50%;
+    z-index: 2;
+    position: absolute;
+    width: 300px;
+    margin-top: 3rem;
+    margin-left: 2rem;
 }
 .BLOGO{
-    width: 50%;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    z-index: 2;
+    position: absolute;
+    width: 300px;
 }
 
 .PHouseT{
@@ -34,6 +75,7 @@
 .H1C{
     display: flex;
     justify-content: center;
+    margin-top: 5rem;
 
 }
 .CT1{
@@ -59,6 +101,46 @@ gap: 8rem;
 .CT21 h4{
     color:rgb(119, 119, 117) ;
 }
-.coffeeHouse{
-    display: none;
+.backP{
+    margin: 4rem auto ;
+    width: 80px;
+    height: 30px;
+    background: #8e8e8d;
+    color: rgb(255, 255, 255);
+    transition: background .2s linear, border-radius .3s ease-in;
 }
+.backP p{
+    font-size: 1.2rem;
+    padding-left: 0.8rem;
+}
+.backP:hover{
+    border-radius: 20px; 
+    transition: .5s;
+
+}
+.B1C{
+    margin-top: 5rem;
+    display: flex;
+}
+.BP{
+    width:50% ;
+    height: 50%;
+}
+
+.BL{
+    width: 50%;
+}
+.BCT1{
+    margin-left: 2rem;
+}
+.BCT1 p{
+    font-size: 1.2rem;
+}
+.BF{
+    width: 20%;
+}
+.BT{
+    width: 60%;
+    margin-left: 2rem;
+}
+

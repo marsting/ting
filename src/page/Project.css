@@ -3,6 +3,25 @@
    margin-left: 30%;
     margin-top: 10rem;
 }
+.PSelect{
+    display: flex;
+    justify-content: center; 
+    gap: 8rem;
+    margin-top: 4rem;
+}
+.PSelect h2{
+    /* font-weight: bold; */
+}
+.PSelect h2:hover{
+    color: yellow;
+}
+.SLOGO{
+    width: 50%;
+}
+.BLOGO{
+    width: 50%;
+}
+
 .PHouseT{
     display: flex;
     justify-content: center;
@@ -12,7 +31,7 @@
     width: 40%;
     height: 40%;
 }
-.H1C ,.H2C {
+.H1C{
     display: flex;
     justify-content: center;
 
@@ -20,6 +39,26 @@
 .CT1{
     padding-top: 5rem;
 }
-.CT1 p{
+.CT1 p, .CT2 p, .CT3 p{
    font-size: 1.2rem;
+}
+.H2C, .H3C{
+    width: 100%;
+    margin-top: 5rem;
+}
+.Video{
+    margin-left: 20%;
+
+}
+.CT2, .CT3{
+ margin-top: 1rem;
+display: flex;
+justify-content: center;
+gap: 8rem;
+    }
+.CT21 h4{
+    color:rgb(119, 119, 117) ;
+}
+.coffeeHouse{
+    display: none;
 }

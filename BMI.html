@@ -9,18 +9,18 @@
 <body>
     <h1>計算BMI</h1>
     <div>
-        身高: <input type="text" id="height" required  >
-        體重: <input type="text" id="weight" required >
+        身高: <input type="text" id="height" onblur="checknull"  >
+        體重: <input type="text" id="weight" onblur="checknull" >
         <button type="submit" id="getValueInput">計算</button>
     </div>
-    <form>
+    <div>
         請輸入身高體重
        <p id="InputH"></p>
        <p id="InputW"></p>
        <p id="Inputbmi"></p>
        <p id="text"></p>
 
-    </form>
+    </div>
 
     <script>
 
@@ -52,8 +52,14 @@
 
         document.getElementById('Inputbmi').innerHTML = Math.floor(BMI*10)/10;
         
+        function checknull(){
+            let H= document.getElementById("height").value;
+            if (H==""){
+                document.getElementById("InputH").innerHTML = "請填寫"; 
+            }
+        }
 
-    }
+    };
     
    
     

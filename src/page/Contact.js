@@ -8,8 +8,9 @@ function Contact (){
         <>
         
         <div className='container'>
+        <img className='Ctitle' src={require('../img/contact.png')} alt="" ></img>
                 <div className='ccontact'>
-                    <img className='cPic' src={require('../img/Intersect.png')} alt="" ></img>
+                    <img className='cPic' src={require('../img/CP.png')} alt="" ></img>
                     <div className='ccontent'>
                         <div className='lineS'></div>
                     

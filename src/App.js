@@ -17,7 +17,7 @@ import Project from './page/Project';
 import ProjectCoffee from './page/ProjectCoffee';
 import ProjectBurner from './page/ProjectBurner';
 //reseum
-import Reseum from './page/Reseum';
+import Reseume from './page/Reseume';
 
 
 function App() {
@@ -28,6 +28,9 @@ function App() {
     <Navbar/>
  
     <Routes >
+        <Route>
+          <Route path="/reseume" element={<Reseume/>}/>
+        </Route>
         <Route>
           <Route path="/contact" element={<Contact/>}/>
         </Route>

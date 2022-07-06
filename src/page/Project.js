@@ -8,6 +8,9 @@ import ReactPlayer from 'react-player'
 
 
 function Project (){
+    const scroll =()=>{
+        window.scroll(0,0)
+    }
     return(
         <>
         <div className='container pC'>
@@ -15,7 +18,7 @@ function Project (){
                <img className='Ptitle' src={require('../img/PROJECT.png')} alt="" ></img>
                </Link> 
                 <div className='PSelect'>
-                  <Link to="/project/coffee" style={{ textDecoration: 'none' }}>
+                  <Link to="/project/coffee" style={{ textDecoration: 'none' }} onClick={scroll}>
                     <div className='picc'>
                     <img className='BACKP1' src={require('../img/Star 2.png')} alt="" ></img>
                     {/* <img className='BACKP2' src={require('../img/Star 3.png')} alt="" ></img> */}
@@ -32,6 +35,7 @@ function Project (){
                     <h2 className='BurnerT'>BURNER</h2>
                   </Link>
                 </div>
+                  <div className='bott'></div>
                
 
         </div>

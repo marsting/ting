@@ -11,7 +11,9 @@ function ProjectBurner (){
     return(
         <>
         <div className='container '>
-                <img className='Ptitle' src={require('../img/PROJECT.png')} alt="" ></img>
+               <Link to="/project" style={{ textDecoration: 'none' }}>
+               <img className='Ptitle' src={require('../img/PROJECT.png')} alt="" ></img>
+               </Link> 
                 <div className='Burner'>
                     <div className='B1C'>
                         <img className='BP' src={require('../img/poster.jpg')} alt="" ></img>

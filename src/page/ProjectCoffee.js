@@ -11,17 +11,9 @@ function ProjectCoffee (){
     return(
         <>
         <div className='container '>
-                <img className='Ptitle' src={require('../img/PROJECT.png')} alt="" ></img>
-                {/* <div className='PSelect'>
-                  <div>
-                  <h2 className=''><FaRegHandPointRight/>COFFEE HOUSE</h2>
-                  <img className='SLOGO' src={require('../img/好室咖啡拷貝.png')} alt="" ></img>
-                  </div>
-                  <div>
-                  <h2 className='BurnerT'><FaRegHandPointRight/>BURNER</h2>
-                  <img className='BLOGO' src={require('../img/burner.png')} alt="" ></img>
-                  </div>
-                </div> */}
+               <Link to="/project" style={{ textDecoration: 'none' }}>
+               <img className='Ptitle' src={require('../img/PROJECT.png')} alt="" ></img>
+               </Link> 
                 <div className='coffeeHouse'>
                     <div className='H1C'>
                         <img className='HLogo' src={require('../img/好室咖啡拷貝.png')} alt="" ></img>

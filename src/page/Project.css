@@ -16,9 +16,7 @@
 .PSelect h2{
     /* font-weight: bold; */
 }
-.PSelect h2:hover{
-    color: yellow;
-}
+
 
 @keyframes rotation1 {
     from {
@@ -38,29 +36,58 @@
   }
 .BACKP1{
     width: 360px;
+    height: 377px;
     position: absolute;
     animation: rotation1 20s infinite linear;
+   
 }
 .BACKP2{
     width: 360px;
+    height: 377px;
     position: absolute;
     animation: rotation2 20s infinite linear;
-    z-index: 1;
+    
+}
+.picc{
+    transform: scale(1,1);
+    transition: all 1s ease-out;
+
+}
+.picc:hover{
+    transform: scale(1.1,1.1);
 }
 
 .SLOGO{
     z-index: 2;
     position: absolute;
     width: 300px;
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-left: 2rem;
 }
 .BLOGO{
-    margin-top: 5rem;
-    margin-left: 2rem;
+    margin-top: 6.5rem;
+    margin-left: 3rem;
     z-index: 2;
     position: absolute;
-    width: 300px;
+    width: 280px;
+}
+.BurnerT{
+ margin-top: 400px;   
+ margin-left: 120px; 
+ color: rgb(61, 61, 61);  
+}
+.BurnerT:hover{
+color: yellow;
+transition: .5s;
+}
+.CoffeeT{
+    margin-top: 400px;
+    margin-left: 60px;   
+    color: rgb(61, 61, 61);  
+}
+.CoffeeT:hover{
+    transition: .5s;
+    color: pink;
 }
 
 .PHouseT{
@@ -143,4 +170,6 @@ gap: 8rem;
     width: 60%;
     margin-left: 2rem;
 }
+
+
 

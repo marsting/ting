@@ -13,12 +13,14 @@ function Project (){
     }
     return(
         <>
-        <div className='container pC'>
-               <Link to="/project" style={{ textDecoration: 'none' }}>
+        <div className='pC'>
+               <Link to="/project" style={{ textDecoration: 'none' }} className="title" >
                <img className='Ptitle' src={require('../img/PROJECT.png')} alt="" ></img>
                </Link> 
                 <div className='PSelect'>
-                  <Link to="/project/coffee" style={{ textDecoration: 'none' }} onClick={scroll}>
+                <div className='pcard'>
+
+                  <Link to="/project/coffee" style={{ textDecoration: 'none' }} onClick={scroll} className="allm" >
                    
                     {/* <img className='BACKP1' src={require('../img/Star 2.png')} alt="" ></img> */}
                     {/* <img className='BACKP2' src={require('../img/Star 3.png')} alt="" ></img> */}
@@ -28,10 +30,11 @@ function Project (){
                     </div>
                     <img className='pBg' src={require('../img/pBg.png')} alt="" ></img>
                     <img className='SLOGO' src={require('../img/好室咖啡拷貝.png')} alt="" ></img>
-                   
-                    <h2 className='CoffeeT'>COFFEE HOUSE</h2>
+                    <div className="btext">COFFEE&ensp;HOUSE</div>
                   </Link>
-                  <Link to="/project/burner" style={{ textDecoration: 'none' }}>
+                </div>
+                <div className='pcard'>
+                  <Link to="/project/burner" style={{ textDecoration: 'none' }} className="allm" >
                     {/* <img className='BACKP1' src={require('../img/Star 2.png')} alt="" ></img> */}
             
                     {/* <img className='BACKP2' src={require('../img/Star 3.png')} alt="" ></img> */}
@@ -41,10 +44,12 @@ function Project (){
                     </div>
                     <img className='pBg' src={require('../img/pBg.png')} alt="" ></img>
                     <img className='BLOGO' src={require('../img/burner.png')} alt="" ></img>
-
-                    <h2 className='BurnerT'>BURNER</h2>
+                    <div className="btext">BURNER</div>
+                  
                   </Link>
-                </div>
+                 </div>
+               
+                  </div>
                   <div className='bott'></div>
                
 

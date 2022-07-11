@@ -31,7 +31,7 @@
     transition: background .2s linear, border-radius .3s ease-in;
 }
 .pinkN:hover{
-    background-image: ;
+  
     border-radius: 50%;
     transition: .5s;
     color: #545454;
@@ -60,7 +60,7 @@
 }
 .NBtn{
     display: flex;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
     
 }
 .titleN{
@@ -76,4 +76,16 @@
     color: rgb(239, 104, 127);
     transition: .5s;
 
+}
+@media screen and (max-width:800px) {
+    .mN{
+        width: 60px;
+    }
+    .NBtn{
+        display: flex;
+        
+    }
+    .titleN{
+        margin-left: 2rem;
+    }
 }

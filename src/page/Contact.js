@@ -10,30 +10,32 @@ function Contact (){
         <>
         
         <div className='Ce'>
+        <div className='title'>
         <img className='Ctitle' src={require('../img/contact.png')} alt="" ></img>
+        </div>
                 <div className='ccontact'>
                     <img className='cPic' src={require('../img/CP.png')} alt="" ></img>
                     <div className='ccontent'>
                         <div className='lineS'></div>
                     
-                            <h2>歡迎與我聯繫～</h2>
+                            <h2 className='cc'>歡迎與我聯繫～</h2>
                             <br/>
-                            <h2>以下為聯絡資訊</h2>
+                            <h2 className='cc'>以下為聯絡資訊</h2>
                             <br/>
                                 <div className='info'>
-                                    <AiOutlineSmile size={30}/>
+                                    <AiOutlineSmile size={30} color="#7003FA"/>
                                     <p>朱韻婷</p>
                                 </div>
                                 <div className='info'>
-                                    <AiOutlineReddit size={30}/>
+                                    <AiOutlineReddit size={30} color="#7003FA"/>
                                     <p>Tiana</p>
                                 </div>
                                 <div className='info'>
-                                    <AiOutlinePhone size={30}/>
+                                    <AiOutlinePhone size={30} color="#7003FA"/>
                                     <p>0911086680</p>
                                 </div>
                                 <div className='info'>
-                                <AiOutlineMail size={30}/>
+                                <AiOutlineMail size={30} color="#7003FA"/>
                                    <p>t2893919@gmail.com</p>
                                 </div>
                           

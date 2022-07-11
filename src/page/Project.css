@@ -1,12 +1,23 @@
-
+.pC{
+    margin:2rem 10rem;
+}
+.pC1{
+    margin:2rem 18rem;
+}
 .bott{
     height: 2rem;
 }
+@keyframes Pfli {
+    50%{ filter: drop-shadow(2px 2px 10px green);
+    }
+ }
 .Ptitle{
     width: 30%;
     margin-left: 35%;
     margin-top: 3rem;
+    animation: Pfli 2s infinite ;
 }
+
 .PSelect{
     display: flex;
     justify-content: space-around; 
@@ -19,7 +30,7 @@
 }
 
 
-@keyframes rotation1 {
+/* @keyframes rotation1 {
     from {
       transform: rotate(0deg);
     }
@@ -48,29 +59,48 @@
     position: absolute;
     animation: rotation2 20s infinite linear;
     
-}
-.picc{
+} */
+/* .picc{
     transform: scale(1,1);
     transition: all 1s ease-out;
 
 }
 .picc:hover{
     transform: scale(1.1,1.1);
+} */
+.toptext{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+.pBg{
+    width: 400px;
+    height: 500px;
+    position: absolute;
 }
 
 .SLOGO{
     z-index: 2;
     position: absolute;
-    width: 300px;
+    width: 320px;
     margin-top: 4rem;
     margin-left: 2rem;
+    transform: scale(1,1);
+    transition: all 1s ease-out;
 }
 .BLOGO{
     margin-top: 6.5rem;
     margin-left: 3rem;
     z-index: 2;
     position: absolute;
-    width: 280px;
+    width: 300px;
+    transform: scale(1,1);
+    transition: all 1s ease-out;
+}
+.SLOGO:hover,.BLOGO:hover{
+    transform: scale(1.1,1.1);
+
 }
 .BurnerT{
  margin-top: 400px;   
@@ -172,5 +202,29 @@ gap: 8rem;
     margin-left: 2rem;
 }
 
-
+@media screen and (max-width: 800px) {
+    .pBg{
+        width: 300px;
+        height: 500px;
+        position: absolute;
+    }
+    .SLOGO{
+        z-index: 2;
+        position: absolute;
+        width: 280px;
+        margin-top: 4rem;
+        margin-left: 2rem;
+        transform: scale(1,1);
+        transition: all 1s ease-out;
+    }
+    .BLOGO{
+        margin-top: 6.5rem;
+        margin-left: 3rem;
+        z-index: 2;
+        position: absolute;
+        width: 280px;
+        transform: scale(1,1);
+        transition: all 1s ease-out;
+    }
+}
 

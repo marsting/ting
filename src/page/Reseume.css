@@ -1,6 +1,63 @@
+.Re{
+    margin:2rem 10rem;
+
+}
+@keyframes Rfli {
+    50%{ filter: drop-shadow(2px 2px 10px Red);
+    }
+ }
 
 .Rtitle{
     width: 30%;
     margin-left: 35%;
     margin-top: 3rem;
+    animation: Rfli 2s infinite ;
+ 
+}
+
+.RContent{
+    display: flex;
+    gap: 8rem;
+}
+.Rimg{
+    width: 65%;
+    margin-top: 2rem;
+}
+.Rpic{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+  
+}
+@keyframes typing {
+    from{width: 0;}
+   
+}
+/* 光标闪啊闪 */
+@keyframes blink-caret {
+    from, to { box-shadow: 1px 0 0 0 transparent; }
+    50% { box-shadow: 1px 0 0 0; }
+  }
+ 
+  
+.Rpic p{
+    font-size: 4rem;
+    width: 30rem;
+    border-right: 2px solid transparent;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(15) infinite , blink-caret .75s steps(15, end) infinite;
+    
+}
+.RAbout{
+    width: 30%;
+    margin-top: 7rem;
+}
+.Rex{
+    margin-top: 7rem;
+    width: 30%;
+
 }

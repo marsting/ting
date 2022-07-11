@@ -10,11 +10,11 @@ import { FaRegHandPointRight } from "react-icons/fa";
 function ProjectBurner (){
     return(
         <>
-        <div className='container '>
+        <div className='pC '>
                <Link to="/project" style={{ textDecoration: 'none' }}>
                <img className='Ptitle' src={require('../img/PROJECT.png')} alt="" ></img>
                </Link> 
-                <div className='Burner'>
+                <div className='Burner pC1'>
                     <div className='B1C'>
                         <img className='BP' src={require('../img/poster.jpg')} alt="" ></img>
                         <div className='BCT1'>

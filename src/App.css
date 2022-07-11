@@ -1,8 +1,11 @@
 p, h1, h2, h3,h4,h5,h6 {
   font-family: Quicksand;
 }
+p{
+  font-size: 1.2rem;
+}
 main{
-  background-color: #DBD3D4;
+  background: #F6F6F6;
   background-size: cover;
 }
 

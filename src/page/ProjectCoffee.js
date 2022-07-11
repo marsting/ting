@@ -10,11 +10,11 @@ import { FaRegHandPointRight } from "react-icons/fa";
 function ProjectCoffee (){
     return(
         <>
-        <div className='container '>
+        <div className='pC '>
                <Link to="/project" style={{ textDecoration: 'none' }}>
                <img className='Ptitle' src={require('../img/PROJECT.png')} alt="" ></img>
                </Link> 
-                <div className='coffeeHouse'>
+                <div className='coffeeHouse pC1'>
                     <div className='H1C'>
                         <img className='HLogo' src={require('../img/好室咖啡拷貝.png')} alt="" ></img>
                         <div className='CT1'>

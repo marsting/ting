@@ -1,11 +1,20 @@
+.Ce{
+    margin:2rem 10rem;
+
+}
+@keyframes Cfli {
+   50%{ filter: drop-shadow(2px 2px 10px blue);
+   }
+}
 .Ctitle{
     width: 30%;
     margin-left: 35%;
     margin-top: 3rem;
-    
+    animation: Cfli 2s infinite ;
 }
+
 .cPic{
-    width: 40%;
+    width: 30%;
     margin-right: 7rem;
 }
 .ccontact{

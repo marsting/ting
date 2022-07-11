@@ -2,12 +2,14 @@ import React from 'react';
 import './Contact.css'
 import { AiOutlinePhone } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineSmile } from "react-icons/ai";
+import { AiOutlineReddit } from "react-icons/ai";
 
 function Contact (){
     return(
         <>
         
-        <div className='container'>
+        <div className='Ce'>
         <img className='Ctitle' src={require('../img/contact.png')} alt="" ></img>
                 <div className='ccontact'>
                     <img className='cPic' src={require('../img/CP.png')} alt="" ></img>
@@ -18,6 +20,14 @@ function Contact (){
                             <br/>
                             <h2>以下為聯絡資訊</h2>
                             <br/>
+                                <div className='info'>
+                                    <AiOutlineSmile size={30}/>
+                                    <p>朱韻婷</p>
+                                </div>
+                                <div className='info'>
+                                    <AiOutlineReddit size={30}/>
+                                    <p>Tiana</p>
+                                </div>
                                 <div className='info'>
                                     <AiOutlinePhone size={30}/>
                                     <p>0911086680</p>

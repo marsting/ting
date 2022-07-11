@@ -1,15 +1,19 @@
 import React from 'react';
+import './home.css'
 
 
 function Home (){
     return(
         <>
-            <div className='container'>
-        <div className='Ccontain'>
-            <h1>welcome my web</h1>
-        </div>
+        <main>
+
+            <div className='color-change-2x'>
+        
+            <h1 className='tracking-in-expand'>welcome my web</h1>
+       
 
         </div>
+        </main>
         </>
     )
 }

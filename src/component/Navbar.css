@@ -88,4 +88,7 @@
     .titleN{
         margin-left: 2rem;
     }
+    .mw{
+        display: none;
+    }
 }

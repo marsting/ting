@@ -1,8 +1,13 @@
 .pC{
-    margin:2rem 10rem;
+    margin:2rem 5rem;
 }
 .pC1{
-    margin:2rem 18rem;
+   
+   
+ }
+.bC1{
+   display: flex;
+   justify-content: center;
 }
 .bott{
     height: 2rem;
@@ -25,49 +30,9 @@
     display: flex;
     justify-content: space-around; 
     margin-top: 5rem;
-    margin-left: -5rem;
-}
-
-
-
-/* @keyframes rotation1 {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  }
-  @keyframes rotation2 {
-    from {
-      transform: rotate(359deg);
-    }
-    to {
-      transform: rotate(0deg);
-    }
-  }
-.BACKP1{
-    width: 360px;
-    height: 377px;
-    position: absolute;
-    animation: rotation1 20s infinite linear;
-   
-}
-.BACKP2{
-    width: 360px;
-    height: 377px;
-    position: absolute;
-    animation: rotation2 20s infinite linear;
     
-} */
-/* .picc{
-    transform: scale(1,1);
-    transition: all 1s ease-out;
-
 }
-.picc:hover{
-    transform: scale(1.1,1.1);
-} */
+
 .toptext{
     display: flex;
     justify-content: space-between;
@@ -151,7 +116,8 @@ transition: .5s;
 
 }
 .CT1{
-    padding-top: 5rem;
+    width: 40%;
+  
 }
 .CT1 p, .CT2 p, .CT3 p{
    font-size: 1.2rem;
@@ -161,7 +127,8 @@ transition: .5s;
     margin-top: 5rem;
 }
 .Video{
-    margin-left: 20%;
+    display: flex;
+   justify-content: center;
 
 }
 .CT2, .CT3{
@@ -193,16 +160,20 @@ gap: 8rem;
 .B1C{
     margin-top: 5rem;
     display: flex;
+    justify-content: center;
 }
 .BP{
-    width:50% ;
-    height: 50%;
+    width:40% ;
+   height: 100%;
+   
 }
 
 .BL{
-    width: 50%;
+    width: 16rem;
 }
 .BCT1{
+    width:40% ;
+    height: 100%;
     margin-left: 2rem;
 }
 .BCT1 p{
@@ -214,6 +185,21 @@ gap: 8rem;
 .BT{
     width: 60%;
     margin-left: 2rem;
+}
+@media screen and (max-width: 1300px) {
+    .B1C{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .BCT1{
+        margin: 2rem 0;
+        width: 500px;
+
+    }
+    .BP{
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -265,10 +251,35 @@ gap: 8rem;
         padding-bottom: 4rem;
 
     }
+    .H1C{
+        flex-direction: column;
+       align-items: center;
+    }
+    .HLogo, .CT1{
+        width: 80%;
+    }
+    
+
+
    
 }
 @media screen and (max-width: 400px) {
     .Ptitle{
         width: 250px;
     }
+    
+    .pBg{
+        width: 300px;
+        height: 400px;
+        position: relative;
+    }
+    .BCT1{
+       
+        width: 300px;
+
+    }
+    .BP{
+        width: 300px;
+    }
+
 }

@@ -11,7 +11,7 @@ function ProjectCoffee (){
     return(
         <>
         <div className='pC '>
-               <Link to="/project" style={{ textDecoration: 'none' }}>
+        <Link to="/project" style={{ textDecoration: 'none' }} className="title" >
                <img className='Ptitle' src={require('../img/PROJECT.png')} alt="" ></img>
                </Link> 
                 <div className='coffeeHouse pC1'>
@@ -36,7 +36,7 @@ function ProjectCoffee (){
                             <p>&ensp;2.品牌設計(顏色、LOGO 和風格）</p>
                             <p>&ensp;3.以RWD響應式網頁呈現畫面及資料，前端畫面設計及串接API資料部分</p>
                             <p>&ensp;4.後端配合前端畫面進行後端串接API設計與開發，並搭配資料庫預存程序處理相關資料</p>        
-                    </div>
+                        </div>
                     </div>
                     <h2 className='PHouseT'>前台頁面</h2>
                     <div className='H2C'>

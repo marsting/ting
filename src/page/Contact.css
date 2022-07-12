@@ -47,11 +47,14 @@
 }
 @media screen and (max-width:1000px) {
    
-    .Ptitle{
+    .Ctitle{
         width: 400px;
     } 
     .ccontact{
+        display: flex;
         flex-direction: column;
+        margin: 3rem auto;
+        align-items: center;
     }
     .lineS{
         width:15rem;
@@ -59,10 +62,23 @@
         border-top: dotted rgb(119, 119, 119) 4px;
         margin: 4rem auto;
     }
+    .cPic{
+        width: 400px;
+        height: 100%;
+        margin:0 
+        }
     
 }
 @media screen and (max-width: 400px) {
-    .Ptitle{
+    .cPic{
+        width: 300px;
+        height: 100%;
+        
+    }
+    .Ctitle{
         width: 250px;
     }
+  
+ 
+
 }

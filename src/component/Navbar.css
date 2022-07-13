@@ -11,6 +11,9 @@
     display: flex;
     justify-content: space-between;
 }
+.mnavLine{
+    display: none;
+}
 .pinkN, .yellowN ,.blueN {
     width: 50px;
     height: 50px;
@@ -60,7 +63,6 @@
 }
 .NBtn{
     display: flex;
-    /* margin-right: 2rem; */
     
 }
 .titleN{
@@ -78,17 +80,36 @@
 
 }
 @media screen and (max-width:800px) {
-    .mN{
-        width: 60px;
-    }
+  
     .NBtn{
-        display: flex;
-        
+        justify-content: center;
+        gap: 2rem;
+       
     }
     .titleN{
-        margin-left: 2rem;
+        width:4rem ;
+       margin: 1rem auto; 
+        display: flex;
+        border-bottom:#545454 0.5px solid ;
     }
     .mw{
         display: none;
     }
+    .navLine{
+        display: none;
+    }
+    .mnavLine{
+        display: flex;
+        flex-direction: column;
+    }
+    .navB{
+        height: 140px;
+    }
+   
+   
+    .mt{
+        color: #545454;
+        font-size: 1rem;
+    }
+   
 }

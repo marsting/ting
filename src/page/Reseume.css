@@ -1,5 +1,5 @@
 .Re{
-    margin:2rem 10rem;
+    margin:2rem 5rem;
 
 }
 h3{
@@ -11,8 +11,7 @@ h3{
  }
 
 .Rtitle{
-    width: 30%;
-    margin-left: 35%;
+    width: 500px;
     margin-top: 3rem;
     animation: Rfli 2s infinite ;
  
@@ -23,7 +22,7 @@ h3{
     gap: 8rem;
 }
 .Rimg{
-    width: 65%;
+    width: 350px;
     margin-top: 2rem;
 }
 .Rpic{
@@ -60,7 +59,42 @@ h3{
     margin-top: 7rem;
 }
 .Rex{
-    margin-top: 7rem;
+    margin-top: 1rem;
     width: 30%;
+
+}
+@media screen and (max-width:1000px) {
+   
+    .Rtitle{
+        width: 400px;
+    } 
+    .RContent{
+        flex-direction: column;
+        gap: 0;
+    }
+    .RAbout,.Rex{
+        width: 100%;
+    }
+    .Rpic{
+       
+        width: 100%;
+    }
+    .Rex{
+        margin-top: 3rem;
+        width: 100%;
+    
+    }
+}
+@media screen and (max-width: 400px) {
+  
+    .Rtitle{
+        width: 250px;
+    }
+    .Rpic p{
+        font-size: 3rem;
+       animation: typing 3s steps(11) infinite , blink-caret .75s steps(12) infinite;
+
+    }
+ 
 
 }

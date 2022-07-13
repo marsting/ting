@@ -42,7 +42,9 @@ function ProjectCoffee (){
                     <div className='H2C'>
                         <div className='Video'>
                         {/* <ReactPlayer url='https://www.youtube.com/watch?v=_vK3Zscn5W0&t=2039s' /> */}
-                        <iframe width="800" height="450" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="800" height="450" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='wv'></iframe>
+                        <iframe width="500" height="250" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='mv'></iframe>
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='smv'></iframe>
                         </div>
                         <div className='CT2'>
                             <div className='CT21'>
@@ -88,7 +90,9 @@ function ProjectCoffee (){
                      <h2 className='PHouseT'>後台頁面</h2>
                     <div className='H3C'>
                         <div className='Video'>
-                        <iframe width="800" height="450" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="800" height="450" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='wv'></iframe>
+                        <iframe width="500" height="250" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='mv'></iframe>
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='smv'></iframe>
                         </div>
                         <div className='CT3'>
                             <div className='CT21'>

@@ -80,3 +80,6 @@ https://rexhung0302.github.io/2021/09/28/20210928/
 ,
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
+
+typed react 套件
+https://www.npmjs.com/package/react-typed

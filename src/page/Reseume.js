@@ -1,5 +1,10 @@
 import React from 'react';
 import './Reseume.css'
+import { ImLinkedin } from "react-icons/im";
+import { ImBehance2 } from "react-icons/im";
+import { ImInstagram } from "react-icons/im";
+import { ImGithub } from "react-icons/im";
+import Typed from 'react-typed';
 
 function Reseume (){
     return(
@@ -10,13 +15,25 @@ function Reseume (){
         </div>
         <div className='RContent'>
             <div className='Rpic'>
-                <p>Hi, I'm Tiana~</p>
-                <img className='Rimg' src={require('../img/RP.png')} alt="" ></img>
+                <div className='typew'><Typed
+             
+                    strings={["","Hi, I'm Tiana"]}
+                    typeSpeed={40}
+                   s
+                /></div>
+                <img className='Rimg' src={require('../img/RP1.png')} alt="" ></img>
+                <br/>
+                <p>YUNTING CHU</p>
+                <p>朱韻婷</p>
+                <div className='llink'>
+                <ImLinkedin size={40} color="navy" className='m-1'/>
+                <ImBehance2 size={40} color="red" className='m-1'/>
+                <ImInstagram size={40} color="deeppink" className='m-1'/>
+                <ImGithub size={40} color="purple" className='m-1'/>
+                </div>
             </div>
             <div className='RAbout'>
                 <h3>About Me</h3>
-                <br/>
-                <p>YUNTING CHU/朱韻婷</p>
                 <br/>
                 <p>&emsp; &emsp; 喜歡接觸新鮮的東西，熱愛旅遊，以及了解各地方的人文氣息和文化特色。
                     勇於接受挑戰，從中得到更多知識與經驗，建立出自己獨一無二的價値。

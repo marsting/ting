@@ -22,7 +22,7 @@ h3{
     gap: 8rem;
 }
 .Rimg{
-    width: 350px;
+    width: 500px;
     margin-top: 2rem;
 }
 .Rpic{
@@ -30,36 +30,32 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 30%; 
   
 }
-@keyframes typing {
-    from{width: 0;}
-   
+.Rpic p{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
-/* 光标闪啊闪 */
-@keyframes blink-caret {
-    from, to { box-shadow: 1px 0 0 0 transparent; }
-    50% { box-shadow: 1px 0 0 0; }
-  }
+.llink{
+    margin-top: 2rem;
+}
+
+
  
   
-.Rpic p{
-    font-size: 4rem;
+.typew{
+    font-size: 3rem;
     width: 30rem;
-    border-right: 2px solid transparent;
-    overflow: hidden;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 4s steps(15) infinite , blink-caret .75s steps(15, end) infinite;
-    
-}
+   display: flex;
+   justify-content: center;
+} 
 .RAbout{
     width: 30%;
     margin-top: 7rem;
 }
 .Rex{
-    margin-top: 1rem;
+    margin-top: 7rem;
     width: 30%;
 
 }

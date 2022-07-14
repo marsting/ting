@@ -1,10 +1,7 @@
 .pC{
     margin:2rem 5rem;
 }
-.pC1{
-   
-   
- }
+
 .bC1{
    display: flex;
    justify-content: center;
@@ -40,6 +37,16 @@
     color:#46A64F ;
     font-weight: bold;
 }
+.tape{
+    width: 40px;
+    height: 60px;
+    background-color: rgba(150, 148, 148, 0.371);
+    z-index: 2;
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 11rem;
+    border-radius: 2px;
+}
 .btext{
     font-weight: bold;
     margin-top: 0.5rem;
@@ -52,6 +59,7 @@
     width: 400px;
     height: 500px;
     position: relative;
+    filter: drop-shadow( 5px 5px 10px #666666);
 }
 
 .SLOGO{
@@ -61,7 +69,7 @@
     margin-top: 6rem;
     margin-left: -22rem;
     transform: scale(1,1);
-    transition: all 1s ease-out;
+    transition: all .5s ease-out;
 }
 .BLOGO{
     margin-top: 8.5rem;
@@ -70,7 +78,7 @@
     position: absolute;
     width: 300px;
     transform: scale(1,1);
-    transition: all 1s ease-out;
+    transition: all .5s ease-out;
 }
 .SLOGO:hover,.BLOGO:hover{
     transform: scale(1.1,1.1);
@@ -243,6 +251,10 @@ gap: 8rem;
         width: 280px;
         transform: scale(1,1);
         transition: all 1s ease-out;
+    }
+    .tape{
+        margin-left: 8rem;
+        margin-top:-27rem ;
     }
     .allm{
         width: 300px;

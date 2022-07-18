@@ -83,3 +83,7 @@ https://rexhung0302.github.io/2021/09/28/20210928/
 
 typed react 套件
 https://www.npmjs.com/package/react-typed
+
+full page 套件
+https://www.youtube.com/watch?v=a_f4vsNlKek
+npm install --save @ap.cx/react-fullpage

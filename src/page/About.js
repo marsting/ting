@@ -47,10 +47,7 @@ function About (){
             <Link to="/Reseume" style={{ textDecoration: 'none' }} className='seebtn' onClick={goto}><p>See More --></p> </Link>
       
         </div>
-        <div className='pj'>
-        
-
-        </div>
+       
 
             
        

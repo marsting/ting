@@ -19,6 +19,8 @@
 }
 .atitle{
   width: 40%;
+  display: flex;
+  flex-direction: column;
 
 }
 .path {
@@ -28,10 +30,65 @@
 }
 
 @keyframes dash {
-  from {
-    stroke-dashoffset: 822;
-  }
+
   to {
     stroke-dashoffset: 0;
   }
 }
+.seebtn{
+  width: 150px;
+  height: 40px;
+  position: relative;
+  left:80%;
+  background-color: rgba(239, 240, 240, 0.899);
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.seebtn::after, .seebtn::before{
+  content: '';
+  border: 2px solid palevioletred;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: -10px;
+  animation: borderClip 4s linear infinite;
+   
+  }
+  .seebtn::after{
+    animation-delay: -2s;
+  }
+  @keyframes borderClip {
+    0%, 100%{
+      clip-path: inset(0 0 95% 0);
+    }
+    25%{
+      clip-path: inset(0 95% 0 0);
+    }
+    50%{
+      clip-path: inset(95% 0 0 0);
+    }
+    75%{
+      clip-path: inset(0 0 0 95%);
+    }
+  }
+  .seebtn:hover::before, .seebtn:hover::after{
+    animation-play-state:paused ;
+  }
+  .seebtn p{
+    font-size: 1.2rem;
+    line-height: 40px;
+    color: black;
+  }
+  
+  .pj{
+    width: 80%;
+    height: 450px;
+    background-color:yellow;
+  }
+
+  

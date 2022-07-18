@@ -7,9 +7,22 @@ import { ImGithub } from "react-icons/im";
 import Typed from 'react-typed';
 
 function Reseume (){
+    const be = ()=>{
+        window.open('https://www.behance.net/marsting')
+    }
+    const ins = ()=>{
+        window.open('https://www.behance.net/marsting')
+    } 
+    const git = ()=>{
+        window.open('https://github.com/marsting/ting')
+    }
+     const lin = ()=>{
+        window.open('https://www.behance.net/marsting')
+    }
+
     return(
         <>
-        <div className='Re'>
+        <div className='Re' id='Reseume'>
         <div className='title'>
         <img className='Rtitle' src={require('../img/RESEUME.png')} alt="" ></img>
         </div>
@@ -26,10 +39,10 @@ function Reseume (){
                 <p>YUNTING CHU</p>
                 <p>朱韻婷</p>
                 <div className='llink'>
-                <ImLinkedin size={40} color="navy" className='m-1'/>
-                <ImBehance2 size={40} color="red" className='m-1'/>
-                <ImInstagram size={40} color="deeppink" className='m-1'/>
-                <ImGithub size={40} color="purple" className='m-1'/>
+                <a href='' onClick={lin}><ImLinkedin size={40} color="navy" className='m-1'/></a>
+                <a href='' onClick={be}><ImBehance2 size={40} color="blue" className='m-1'/></a>
+                <a href='' onClick={ins}><ImInstagram size={40} color="deeppink" className='m-1'/></a>
+                <a href='' onClick={git}><ImGithub size={40} color="purple" className='m-1'/></a>
                 </div>
             </div>
             <div className='RAbout'>

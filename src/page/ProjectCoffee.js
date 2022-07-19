@@ -113,7 +113,7 @@ function ProjectCoffee (){
                         </div>
                      </div>
                  </div>
-                <Link to="/project" style={{ textDecoration: 'none' }}><div className="backP"><p>BACK</p></div></Link>
+                <Link to="/project" style={{ textDecoration: 'none' }}><div className="backbtn"><p>BACK</p></div></Link>
         </div>
         </>
     )

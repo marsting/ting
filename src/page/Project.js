@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './Project.css'
 import ReactPlayer from 'react-player'
+import {useEffect} from 'react';
 
 
 
@@ -11,6 +12,10 @@ function Project (){
     const scroll =()=>{
         window.scroll(0,0)
     }
+    useEffect(() => {
+      // 👇️ scroll to top on page load
+      window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    }, []);
     return(
         <>
         <div className='pC'>

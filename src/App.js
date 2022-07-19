@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './component/Navbar';
 import Footer from './component/Footer';
 
+
 //字型套件
 import 'typeface-quicksand';
 import { BrowserRouter as Router, Route, Link,Routes  } from "react-router-dom";
@@ -21,12 +22,13 @@ import Reseume from './page/Reseume';
 
 
 function App() {
+  
   return (
    <>
    <main>
    <Router>
-    <Navbar/>
  
+    <Navbar/>
     <Routes >
         <Route>
           <Route path="/reseume" element={<Reseume/>}/>

@@ -35,56 +35,58 @@
     stroke-dashoffset: 0;
   }
 }
-.seebtn{
-  width: 150px;
-  height: 40px;
-  position: relative;
-  left:80%;
-  background-color: rgba(239, 240, 240, 0.899);
-  transform: translate(-50%,-50%);
+
+
+.downarr {
   display: flex;
   justify-content: center;
-  
-  
+  margin-top: 3rem;
 }
-.seebtn::after, .seebtn::before{
-  content: '';
-  border: 2px solid palevioletred;
+.chevron {
+  position: absolute;
+  width: 1.5rem;
+  height: 0.2rem;
+  opacity: 0;
+  transform: scale(0.3);
+  animation: move-chevron 3s ease-out infinite;
+}
+.chevron:first-child {
+  animation: move-chevron 3s ease-out 1s infinite;
+}
+.chevron:nth-child(2) {
+  animation: move-chevron 3s ease-out 2s infinite;
+}
+.chevron:before, .chevron:after {
+  content: "";
   position: absolute;
   top: 0;
+  height: 100%;
+  width: 50%;
+  background: #2c3e50;
+}
+.chevron:before {
   left: 0;
+  transform: skewY(30deg);
+}
+.chevron:after {
   right: 0;
-  bottom: 0;
-  margin: -10px;
-  animation: borderClip 4s linear infinite;
-   
-  }
-  .seebtn::after{
-    animation-delay: -2s;
-  }
-  @keyframes borderClip {
-    0%, 100%{
-      clip-path: inset(0 0 95% 0);
-    }
-    25%{
-      clip-path: inset(0 95% 0 0);
-    }
-    50%{
-      clip-path: inset(95% 0 0 0);
-    }
-    75%{
-      clip-path: inset(0 0 0 95%);
-    }
-  }
-  .seebtn:hover::before, .seebtn:hover::after{
-    animation-play-state:paused ;
-  }
-  .seebtn p{
-    font-size: 1.2rem;
-    line-height: 40px;
-    color: black;
-  }
-  
-
-
-  
+  width: 50%;
+  transform: skewY(-30deg);
+}
+@keyframes move-chevron {
+  25% {
+    opacity: 1;
+ }
+  33.3% {
+    opacity: 1;
+    transform: translateY(2.28rem);
+ }
+  66.6% {
+    opacity: 1;
+    transform: translateY(3.12rem);
+ }
+  100% {
+    opacity: 0;
+    transform: translateY(4.8rem) scale(0.5);
+ }
+}

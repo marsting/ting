@@ -10,18 +10,22 @@
 .Hr,.Hp,.Hc{
     width: 300px;
     height: 300px;
-    box-shadow: 1px -1px #cbcbcb, 2px -2px #cbcbcb, 3px -3px #cbcbcb, 4px -4px #cbcbcb, 5px -5px #cbcbcb, 6px -6px #cbcbcb, 7px -7px #cbcbcb, 8px -8px #cbcbcb,9px -9px 8px #cbcbcb;
+    box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #000000, 5px 5px #000000, 6px 6px #000000, 7px 7px #000000, 8px 8px #000000,9px 9px 8px #000000;
+   
 }
 .Hr{
     background: rgba(250, 0, 255, 0.58);
+    border: 3px solid #000000;
 
 }
 .Hp{
     background: #fff700;
+    border: 3px solid #000000;
 
 }
 .Hc{
     background: #00ddff;
+    border: 3px solid #000000;
 }
 .shadow-pop-tr:hover {
     animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715)  both ;
@@ -29,12 +33,45 @@
 }
 
   @keyframes shadow-pop-tr {
-    /* 0% {   
-        transform: translateX(0) translateY(0);
-    } */
+    
     100% {
         box-shadow: 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 8px #616161;
-        transform: translateX(8px) translateY(-8px);
+        transform: translateX(8px) translateY(8px);
     }
   }
+  .bg-pan-left {
+	-webkit-animation: bg-pan-left 8s both;
+	        animation: bg-pan-left 8s both;
+}
+@-webkit-keyframes bg-pan-left {
+    0% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes bg-pan-left {
+    0% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+ 
+  @keyframes color-change-2x {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }
+  .color-change-2x {
+    height: 300px;
+	        animation: color-change-2x 2s  infinite  ;
+}
   

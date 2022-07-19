@@ -13,22 +13,27 @@ function Clickbtn(){
                 <div className="btnn">
                 <div>
                    <Link to="/Reseume" style={{ textDecoration: 'none' }} >
-                    <div className="Hr shadow-pop-tr">Reseum</div>
+                    <div className="Hr shadow-pop-tr color-change-2x"></div>
                     </Link>
-                  <p>”Hi 這是我的履歷“</p>
+                <br/>
+                  <h4>Reseume</h4>
+                  <p>"It's about me"</p>
                 </div>
                 <div>
                 <Link to="/Project" style={{ textDecoration: 'none' }} >
-                    <div className="Hp shadow-pop-tr">Project</div>
+                    <div className="Hp shadow-pop-tr"></div>
                 </Link>
                 <br/>
-                    <p>”Hi 這是我的作品集“</p>
+                <h4>Project</h4>
+                    <p>”Like a museum“</p>
                 </div>
                 <div>
                 <Link to="/Contact" style={{ textDecoration: 'none' }} >
-                    <div className="Hc shadow-pop-tr">Contact</div>
+                    <div className="Hc shadow-pop-tr"></div>
                 </Link>
-                    <p>”Hi 這是我的聯絡方式“</p>
+                <br/>
+                <h4>Contact</h4>
+                    <p>”Nice to meet you“</p>
                 </div>
 
             

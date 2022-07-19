@@ -13,17 +13,18 @@ import './home.css';
 
 
 
-function Home (props){
+function Home (){
     const SectionStyle ={
      height: '100vh',
      width:'100%',
-    padding:'104px',
-
+    padding:'104px'
     }
+
+    
    
     return(
         <>
-        <Fullpage setHHeight={props.setHHeight}>
+        <Fullpage >
             <FullPageSections>
                 <FullpageSection style={SectionStyle}>
                  <About />
@@ -34,9 +35,7 @@ function Home (props){
                 
             </FullPageSections>
         </Fullpage>
-            {/* <div className='color-change-2x'>    
-            <h1 className='tracking-in-expand'>welcome my web</h1>
-           </div> */}
+           
        
         </>
     )

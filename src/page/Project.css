@@ -198,6 +198,57 @@ gap: 8rem;
     width: 60%;
     margin-left: 2rem;
 }
+.backbtn{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    margin-top: 6rem;
+    left:50%;
+    background-color: rgba(239, 240, 240, 0.899);
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  .backbtn::after, .backbtn::before{
+    content: '';
+    border: 2px solid rgb(133, 246, 72);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: -10px;
+    animation: borderClip 4s linear infinite;
+     
+    }
+    .backbtn::after{
+      animation-delay: -2s;
+    }
+    @keyframes borderClip {
+      0%, 100%{
+        clip-path: inset(0 0 95% 0);
+      }
+      25%{
+        clip-path: inset(0 95% 0 0);
+      }
+      50%{
+        clip-path: inset(95% 0 0 0);
+      }
+      75%{
+        clip-path: inset(0 0 0 95%);
+      }
+    }
+    .backbtn:hover::before, .backbtn:hover::after{
+      animation-play-state:paused ;
+    }
+    .backbtn p{
+      font-size: 1.2rem;
+      line-height: 40px;
+      color: black;
+    }
+    
 @media screen and (max-width: 1300px) {
     .B1C{
         flex-direction: column;

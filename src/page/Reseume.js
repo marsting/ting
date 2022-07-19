@@ -1,4 +1,5 @@
 import React from 'react';
+import {useEffect} from 'react';
 import './Reseume.css'
 import { ImLinkedin } from "react-icons/im";
 import { ImBehance2 } from "react-icons/im";
@@ -19,6 +20,10 @@ function Reseume (){
      const lin = ()=>{
         window.open('https://www.behance.net/marsting')
     }
+    useEffect(() => {
+        // 👇️ scroll to top on page load
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+      }, []);
 
     return(
         <>

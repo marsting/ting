@@ -1,4 +1,5 @@
 import React from 'react';
+import {useEffect} from 'react';
 import './Contact.css'
 import { AiOutlinePhone } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
@@ -6,6 +7,10 @@ import { AiOutlineSmile } from "react-icons/ai";
 import { AiOutlineReddit } from "react-icons/ai";
 
 function Contact (){
+    useEffect(() => {
+        // 👇️ scroll to top on page load
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+      }, []);
     return(
         <>
         

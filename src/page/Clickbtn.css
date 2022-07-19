@@ -3,47 +3,38 @@
 }
 .btnn{
     display: flex;
-    gap: 3rem;
+    justify-content: center;
+    gap: 7rem;
+    margin-top: 10%;
 }
 .Hr,.Hp,.Hc{
-    width: 100px;
-    height: 100px;
-    background: aqua;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px -1px #cbcbcb, 2px -2px #cbcbcb, 3px -3px #cbcbcb, 4px -4px #cbcbcb, 5px -5px #cbcbcb, 6px -6px #cbcbcb, 7px -7px #cbcbcb, 8px -8px #cbcbcb,9px -9px 8px #cbcbcb;
 }
-.text-pop-up-top {
-	-webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
-	        animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
+.Hr{
+    background: rgba(250, 0, 255, 0.58);
+
 }
-@-webkit-keyframes text-pop-up-top {
-    0% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      text-shadow: none;
-    }
+.Hp{
+    background: #fff700;
+
+}
+.Hc{
+    background: #00ddff;
+}
+.shadow-pop-tr:hover {
+    animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715)  both ;
+
+}
+
+  @keyframes shadow-pop-tr {
+    /* 0% {   
+        transform: translateX(0) translateY(0);
+    } */
     100% {
-      -webkit-transform: translateY(-50px);
-              transform: translateY(-50px);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
-    }
-  }
-  @keyframes text-pop-up-top {
-    0% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      text-shadow: none;
-    }
-    100% {
-      -webkit-transform: translateY(-50px);
-              transform: translateY(-50px);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 8px #616161;
+        transform: translateX(8px) translateY(-8px);
     }
   }
   

@@ -10,10 +10,21 @@ import './About.css';
 
 
 
-function About (){
+function About (props){
     const goto=() =>{
         window.scroll(0,0)
     }
+    const { setHHeight } = props
+
+    window.addEventListener('load',()=>{
+        setHHeight(document.getElementById('carouselExampleControls').clientHeight)
+    })
+    window.addEventListener('resize',()=>{
+        setHHeight(document.getElementById('carouselExampleControls').clientHeight)
+    })
+    window.addEventListener('scroll',()=>{
+        setHHeight(document.getElementById('carouselExampleControls').clientHeight)
+    })
    
     return(
         <>

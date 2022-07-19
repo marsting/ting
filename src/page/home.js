@@ -13,23 +13,20 @@ import './home.css';
 
 
 
-function Home (){
+function Home (props){
     const SectionStyle ={
      height: '100vh',
      width:'100%',
-    //  display:'flex',
-    //  justifyContent: 'center',
-    //  alignItem: 'center',
     padding:'104px',
 
     }
    
     return(
         <>
-        <Fullpage>
+        <Fullpage setHHeight={props.setHHeight}>
             <FullPageSections>
                 <FullpageSection style={SectionStyle}>
-                 <About/>
+                 <About />
                 </FullpageSection>
                 <FullpageSection style={SectionStyle}>
                  <Clickbtn/>

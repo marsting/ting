@@ -7,10 +7,13 @@
     gap: 7rem;
     margin-top: 10%;
 }
+.shadow-pop-tr{
+  box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #000000, 5px 5px #000000, 6px 6px #000000, 7px 7px #000000, 8px 8px #000000,9px 9px 8px #000000;
+
+}
 .Hr,.Hp,.Hc{
     width: 300px;
     height: 300px;
-    box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #000000, 5px 5px #000000, 6px 6px #000000, 7px 7px #000000, 8px 8px #000000,9px 9px 8px #000000;
     position: relative;
 }
 .Hr{
@@ -20,6 +23,7 @@
 }
 .Hr:hover{
     background: rgba(250, 0, 255, 0.58);  
+    
 }
 .HRimg{
     margin-top: -15.5rem;
@@ -62,7 +66,7 @@
   }
 .Hc{
     border: 3px solid #000000;
-    animation: cC2 2s  linear infinite alternate both  ;
+    animation: cC2 2s  linear infinite alternate backwards  ;
 }
 .Hc:hover{
     background: #00ddff;
@@ -86,11 +90,19 @@
   }
 
 .shadow-pop-tr:hover {
+  box-shadow: none;
     animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715)  both ;
 }
 
   @keyframes shadow-pop-tr {
-    
+    0% {
+    box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #000000, 5px 5px #000000, 6px 6px #000000, 7px 7px #000000, 8px 8px #000000,9px 9px 8px #000000;
+
+      
+        transform: translateX(0) translateY(0);
+       
+     }
+
     100% {
         box-shadow: 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 #616161, 0 0 8px #616161;
         transform: translateX(8px) translateY(8px);

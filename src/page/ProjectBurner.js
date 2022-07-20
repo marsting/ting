@@ -1,4 +1,5 @@
 import React from 'react';
+import {useEffect} from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './Project.css'
 import ReactPlayer from 'react-player'
@@ -8,6 +9,9 @@ import { FaRegHandPointRight } from "react-icons/fa";
 
 
 function ProjectBurner (){
+    useEffect(() => {
+        document.querySelector(".navB").style.display="block"
+      }, []);
     return(
         <>
         <div className='pC '>

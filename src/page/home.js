@@ -19,6 +19,13 @@ function Home (){
      width:'100%',
     padding:'104px'
     }
+    useEffect(() => {
+        document.querySelector(".navB").style.display="none"
+      }, []);
+
+ 
+ 
+
 
     
    

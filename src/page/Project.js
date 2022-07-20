@@ -15,6 +15,8 @@ function Project (){
     useEffect(() => {
       // 👇️ scroll to top on page load
       window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+      document.querySelector(".navB").style.display="block"
+
     }, []);
     return(
         <>

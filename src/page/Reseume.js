@@ -12,7 +12,7 @@ function Reseume (){
         window.open('https://www.behance.net/marsting')
     }
     const ins = ()=>{
-        window.open('https://www.behance.net/marsting')
+        window.open('https://www.instagram.com/ccpm_/')
     } 
     const git = ()=>{
         window.open('https://github.com/marsting/ting')

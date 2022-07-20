@@ -11,25 +11,82 @@
     width: 300px;
     height: 300px;
     box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #000000, 5px 5px #000000, 6px 6px #000000, 7px 7px #000000, 8px 8px #000000,9px 9px 8px #000000;
-   
+    position: relative;
 }
 .Hr{
-    background: rgba(250, 0, 255, 0.58);
-    border: 3px solid #000000;
 
+    border: 3px solid #000000;
+    animation: cR2 2s  linear infinite alternate both  ;
 }
+.Hr:hover{
+    background: rgba(250, 0, 255, 0.58);  
+}
+.HRimg{
+    margin-top: -15.5rem;
+    margin-left: 1.5rem;
+    position: absolute;
+    z-index: 2;
+    width: 250px;
+}
+@keyframes cR2 {
+    0% {
+      background-color: #9c0000;
+    }
+    100% {
+      background-color: #ff00ea;
+    }
+  }
+
 .Hp{
+    border: 3px solid #000000;
+    animation: cP2 2s  linear infinite alternate both  ;
+    
+}
+.Hp:hover{
     background: #fff700;
-    border: 3px solid #000000;
-
 }
+.HPimg{
+    margin-top: -17rem;
+    margin-left: 3rem;
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+}
+@keyframes cP2 {
+    0% {
+      background-color: #4dff00;
+    }
+    100% {
+      background-color: #fff700;
+    }
+  }
 .Hc{
-    background: #00ddff;
     border: 3px solid #000000;
+    animation: cC2 2s  linear infinite alternate both  ;
 }
+.Hc:hover{
+    background: #00ddff;
+    
+}
+.HCimg{
+    margin-top: -16rem;
+    margin-left: 3rem;
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+}
+
+@keyframes cC2 {
+    0% {
+      background-color: #8c00ff;
+    }
+    100% {
+      background-color: #00ddff;
+    }
+  }
+
 .shadow-pop-tr:hover {
     animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715)  both ;
-
 }
 
   @keyframes shadow-pop-tr {
@@ -61,17 +118,7 @@
   }
 
 
+
  
-  @keyframes color-change-2x {
-    0% {
-      background: #19dcea;
-    }
-    100% {
-      background: #b22cff;
-    }
-  }
-  .color-change-2x {
-    height: 300px;
-	        animation: color-change-2x 2s  infinite  ;
-}
+ 
   

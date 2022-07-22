@@ -50,9 +50,9 @@ function ProjectCoffee (){
                     <div className='H2C'>
                         <div className='Video'>
                         {/* <ReactPlayer url='https://www.youtube.com/watch?v=_vK3Zscn5W0&t=2039s' /> */}
-                        <iframe width="600" height="430" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='wv'></iframe>
-                        <iframe width="500" height="250" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='mv'></iframe>
-                        <iframe width="300" height="150" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='smv'></iframe>
+                        <iframe width="600" height="350" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='wv'></iframe>
+                        <iframe width="500" height="300" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='mv'></iframe>
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='smv'></iframe>
                         </div>
                         <div className='CT2'>
                         <div className='list1'>
@@ -115,24 +115,26 @@ function ProjectCoffee (){
                      <h2 className='PHouseT'>後台頁面</h2>
                     <div className='H3C'>
                         <div className='Video'>
-                        <iframe width="600" height="430" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='wv'></iframe>
-                        <iframe width="500" height="250" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='mv'></iframe>
-                        <iframe width="300" height="150" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='smv'></iframe>
+                        <iframe width="600" height="350" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='wv'></iframe>
+                        <iframe width="500" height="300" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='mv'></iframe>
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='smv'></iframe>
                         </div>
                         <div className='CT3'>
                             <div className='CT21 list1'>
                                 <h4>商品管理</h4>
-                                <br/>
-                                <p>•商品項目清單</p>
-                                <p>•上／下架商品</p>
-                                <p>•新增商品</p>
-                                <p>•修改商品</p>
+                                <ul>
+                                <li>商品項目清單</li>
+                                <li>上／下架商品</li>
+                                <li>新增商品</li>
+                                <li>修改商品</li>
+                                </ul>
                             </div>
                             <div className='CT21 list2'>
                                 <h4>訂單管理</h4>
-                                <br/>
-                                <p>•訂單清單</p>
-                                <p>•可更新訂單狀態</p>
+                                <ul>
+                                <li>訂單清單</li>
+                                <li>可更新訂單狀態</li>
+                                </ul>
                             </div>
 
                         </div>

@@ -292,7 +292,13 @@ li{
     .CT2,.CT3{
         width: 100%;
         justify-content: center;
-        gap: 4rem;
+        /* gap: 4rem; */
+    }
+    .list1{
+        width: 50%;
+    }
+    .list2{
+        width: 50%;
     }
 }
 
@@ -355,8 +361,12 @@ li{
         flex-direction: column;
        align-items: center;
     }
-    .HLogo, .CT1{
+    .HLogo{
+        width: 450px;
+    }
+    .CT1{
         width: 100%;
+
     }
     .mv{
         display: block;
@@ -370,6 +380,12 @@ li{
       
         gap: 1.5rem;
 
+    }
+    .list1{
+        width: 100%;
+    }
+    .list2{
+        width: 100%;
     }
    
    
@@ -404,6 +420,9 @@ li{
     }
     .pcard{
        margin-left: -2.5rem;
+    }
+    .HLogo{
+        width: 300px;
     }
   
 

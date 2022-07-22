@@ -22,10 +22,10 @@ function About (){
         <div className='ac'>
         
         <div className='acontent'>
-            <img className='aimg' src={require('../img/M.png')} alt="" ></img>
+            <img className='aimg' src={require('../img/N.png')} alt="" ></img>
         
             <div className='atitle'>
-               <p>Hello,my name is Tiana!</p>
+               <p>Hi~ My name is Tiana!</p>
                 
                <p>I'm a &nbsp;
                 <Typed className='changetext'

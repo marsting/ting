@@ -1,5 +1,5 @@
 .ac{
-  margin:2rem 5rem;
+ margin:5rem 0;
 
 }
 .acontent{
@@ -9,16 +9,16 @@
   gap: 5rem;
 }
 .aimg{
-  width: 30%;
+  width: 570px;
 }
 .atitle p{
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .changetext{
   color: rgb(244, 161, 37);
 }
 .atitle{
-  width: 50%;
+  width: 620px;
   display: flex;
   flex-direction: column;
 
@@ -89,4 +89,36 @@
     opacity: 0;
     transform: translateY(4.8rem) scale(0.5);
  }
+}
+@media screen and (max-width: 1300px) {
+  .atitle p{
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .downarr{
+    display: none;
+  
+}
+  .acontent{
+    flex-direction: column;
+  }
+  .atitle{
+    width: 100%;
+    align-items: center;
+  }
+  .atitle p{
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+
+.atitle p{
+  font-size: 2rem;
+}
+}
+@media screen and (max-width: 500px) {
+  .aimg{
+    width: 350px;
+  }
 }

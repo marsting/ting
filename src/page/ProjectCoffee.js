@@ -46,28 +46,36 @@ function ProjectCoffee (){
                     <div className='H2C'>
                         <div className='Video'>
                         {/* <ReactPlayer url='https://www.youtube.com/watch?v=_vK3Zscn5W0&t=2039s' /> */}
-                        <iframe width="800" height="450" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='wv'></iframe>
+                        <iframe width="600" height="430" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='wv'></iframe>
                         <iframe width="500" height="250" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='mv'></iframe>
                         <iframe width="300" height="150" src="https://www.youtube.com/embed/_vK3Zscn5W0?start=2039" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='smv'></iframe>
                         </div>
                         <div className='CT2'>
+                        <div>
+
                             <div className='CT21'>
                                 <h4>商品首頁SHOP</h4>
-                                <br/>
                                 <p>•商品列表</p>
                                 <p>•商品分類</p>
                                 <p>•快速加入購物車</p>
                                 <p>•收藏商品</p>
                             </div>
+                            <br/>
                             <div className='CT21'>
                                 <h4>商品詳細頁面</h4>
-                                <br/>
                                 <p>•加入購物車</p>
                                 <p>•隨機推薦商品</p>
                             </div>
+                            <br/>
+                            <div className='CT21'>
+                                <h4>會員區</h4>
+                                <p>•使用過的優惠券刪除</p>
+                                <p>•購買完成後，新增紅利點數</p>
+                                <p>•稍後付款功能</p>
+                            </div>
+                        </div>
                             <div className='CT21'>
                                 <h4>購物車</h4>
-                                <br/>
                                 <p>•確認商品</p>
                                 <p>&ensp;-確認購買的商品</p>
                                 <p>&ensp;-新增刪除數量</p>
@@ -82,19 +90,13 @@ function ProjectCoffee (){
                                 <p>&ensp;-好室咖啡信用卡頁面</p>
                                 <p>&ensp;-依照不同卡別，卡色會變更</p>
                             </div>
-                            <div className='CT21'>
-                                <h4>會員區</h4>
-                                <br/>
-                                <p>•使用過的優惠券刪除</p>
-                                <p>•購買完成後，新增紅利點數</p>
-                                <p>•稍後付款功能</p>
-                            </div>
+                            
                         </div>
                      </div>
                      <h2 className='PHouseT'>後台頁面</h2>
                     <div className='H3C'>
                         <div className='Video'>
-                        <iframe width="800" height="450" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='wv'></iframe>
+                        <iframe width="600" height="430" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='wv'></iframe>
                         <iframe width="500" height="250" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='mv'></iframe>
                         <iframe width="300" height="150" src="https://www.youtube.com/embed/XY5wPt5TFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='smv'></iframe>
                         </div>

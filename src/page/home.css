@@ -1,0 +1,16 @@
+.mobile{
+    display: none;
+}
+.cgap{
+    height: 6rem;
+}
+@media screen and (max-width: 1200px) {
+.web{
+    display: none;
+}
+.mobile{
+    display: block;
+    margin-top: -5rem;
+}
+    
+}

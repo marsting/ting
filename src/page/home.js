@@ -23,15 +23,10 @@ function Home (){
         document.querySelector(".navB").style.display="none"
       }, []);
 
- 
- 
-
-
-    
-   
     return(
         <>
-        <Fullpage >
+        <div className='web'>
+         <Fullpage >
             <FullPageSections>
                 <FullpageSection style={SectionStyle}>
                  <About />
@@ -41,7 +36,13 @@ function Home (){
                 </FullpageSection>
                 
             </FullPageSections>
-        </Fullpage>
+            </Fullpage>
+        </div>
+        <div className='mobile'>
+          <About/>
+          <div className='cgap'></div>
+          <Clickbtn/>
+        </div>
            
        
         </>

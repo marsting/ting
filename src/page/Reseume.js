@@ -30,7 +30,7 @@ function Reseume (){
         <>
         <div className='Re' id='Reseume'>
         <div className='title'>
-        <img className='Rtitle' src={require('../img/RESEUME.png')} alt="" ></img>
+         <img className='Rtitle' src={require('../img/RESEUME.png')} alt="" ></img>
         </div>
         <div className='RContent'>
             <div className='Rpic'>
@@ -64,7 +64,7 @@ function Reseume (){
                 <p>資展國際 前端就業養成班 588小時<br/>
                 Jan 2022 – Jun 2022</p>
 
-                <ul>
+                <ul className='Rlist'>
                     <li>好室咖啡網站</li>
                     <li>負責UI/UX規劃</li>
                     <li>品牌設計</li>
@@ -74,7 +74,7 @@ function Reseume (){
                 <p>儒億科技股份有限公司  工程師<br/>
                 Feb 2020 – Dec 2021</p>
 
-                <ul>
+                <ul className='Rlist'>
                     <li>車燈ＣＧ美工設計-Keyshot渲染3D圖，Photoshop仿真車燈視覺設計</li>
                     <li>品牌視覺: 年度公司形象海報、小卡設計</li>
                     <li>專案管理: 責任時間內取得資料並完成專案試驗項目發佈。包含取得車廠SPEC、內容翻譯、試驗挑選、並與相關部門進一步討論完成問題點確認</li>
@@ -90,27 +90,30 @@ function Reseume (){
             <div className='Rex'>
             <h3>Education</h3>
                 <br/>
-                <p>Master Degree - University for the Creative Art
+                
+                <p>Master Degree 
                 </p>
-                <p>
-                &emsp; Design, Innovation & Brand Management<br/>
-                &emsp; Sep 2018 – Sep 2019<br/>
-                &emsp; Project: Burner Graffiti Museum
-                </p>
+                <ul className='nonstyle'>
+                <li>University for the Creative Art</li>
+               <li>Design, Innovation & Brand Management</li>
+               <li>Sep 2018 – Sep 2019</li>
+               <li>Project: Burner Graffiti Museum</li>
+                </ul>
 
                 <br/>
-                <p>Bachelor - 義守大學
-               </p>
-                <p>
-                &emsp; 創意商品學系<br/>
-                &emsp; Sep 2013 – Jun 2017<br/>
-                </p>
+                <p>Bachelor</p>
+                <ul className='nonstyle'>
+                    <li>義守大學</li>
+                    <li>創意商品學系</li>
+                    <li>Sep 2013 – Jun 2017</li>
+                </ul>
+               
                 <br/>
                 <br/>
                 <h3>Skill</h3>
                 <br/>
                 <p>UI/UX Design</p>
-                <ul>
+                <ul className='Rlist'>
                     <li>Figma</li>
                     <li>Illustrator</li>
                     <li>Photoshop</li>
@@ -118,7 +121,7 @@ function Reseume (){
                     <li>Illustrator</li>
                 </ul>
                 <p>Front-end Development</p>
-                <ul>
+                <ul className='Rlist'>
                     <li>HTML, CSS, Bootstrap</li>
                     <li>JavaScript, React</li>
                     <li>Photoshop</li>
@@ -126,7 +129,7 @@ function Reseume (){
                     <li>MySQL、node</li>
                 </ul>
                 <p>Languages</p>
-                <ul>
+                <ul className='Rlist'>
                     <li>IELTS 6.0</li>
                     <li>TOEIC 745</li>
                 </ul>

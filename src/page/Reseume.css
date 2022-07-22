@@ -40,8 +40,13 @@ h3{
 .llink{
     margin-top: 2rem;
 }
+.Rlist{
+    list-style: square;
+}
+.nonstyle{
+    list-style: none;
 
-
+}
  
   
 .typew{
@@ -63,6 +68,7 @@ h3{
    
     .Rtitle{
         width: 400px;
+        
     } 
     .RContent{
         flex-direction: column;
@@ -81,16 +87,22 @@ h3{
     
     }
 }
+@media screen and (max-width: 500px) {
+    .Rimg{
+        width: 300px;
+    }
+}
 @media screen and (max-width: 400px) {
   
     .Rtitle{
         width: 250px;
     }
     .Rpic p{
-        font-size: 3rem;
+        font-size: 2rem;
        animation: typing 3s steps(11) infinite , blink-caret .75s steps(12) infinite;
 
     }
+ 
  
 
 }

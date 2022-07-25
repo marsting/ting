@@ -18,7 +18,7 @@ function Resume (){
         window.open('https://github.com/marsting/ting')
     }
      const lin = ()=>{
-        window.open('https://www.behance.net/marsting')
+        window.open('www.linkedin.com/in/marsting')
     }
     useEffect(() => {
         // 👇️ scroll to top on page load

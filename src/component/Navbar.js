@@ -19,7 +19,7 @@ function Navbar (){
             <Link to="/ting" style={{ textDecoration: 'none' }}> 
             <p className='titleN'>CHU</p></Link>
             <div className='NBtn'>
-               <Link to="/Reseume" style={{ textDecoration: 'none' }} onclick={ttop} ><div className='pinkN' ><p >RESEUME</p></div></Link>
+               <Link to="/Resume" style={{ textDecoration: 'none' }} onclick={ttop} ><div className='pinkN' ><p >RESUME</p></div></Link>
                <Link to="/Project" style={{ textDecoration: 'none' }} onclick={ttop}> <div className='yellowN' ><p >PROJECT</p></div></Link>
                <Link to="/Contact" style={{ textDecoration: 'none' }} onclick={ttop}> <div className='blueN' ><p >CONTACT</p></div></Link>
             </div>

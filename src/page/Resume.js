@@ -1,13 +1,13 @@
 import React from 'react';
 import {useEffect} from 'react';
-import './Reseume.css'
+import './Resume.css'
 import { ImLinkedin } from "react-icons/im";
 import { ImBehance2 } from "react-icons/im";
 import { ImInstagram } from "react-icons/im";
 import { ImGithub } from "react-icons/im";
 import Typed from 'react-typed';
 
-function Reseume (){
+function Resume (){
     const be = ()=>{
         window.open('https://www.behance.net/marsting')
     }
@@ -30,7 +30,7 @@ function Reseume (){
         <>
         <div className='Re' id='Reseume'>
         <div className='title'>
-         <img className='Rtitle' src={require('../img/RESEUME.png')} alt="" ></img>
+         <img className='Rtitle' src={require('../img/RESUME.png')} alt="" ></img>
         </div>
         <div className='RContent'>
             <div className='Rpic'>
@@ -143,4 +143,4 @@ function Reseume (){
         </>
     )
 }
-    export default Reseume
+    export default Resume

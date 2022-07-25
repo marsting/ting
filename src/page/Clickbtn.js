@@ -8,14 +8,14 @@ function Clickbtn(){
         <div className="click">
                 <div className="btnn">
                     <div className="">
-                       <Link to="/Reseume" style={{ textDecoration: 'none' }} >
+                       <Link to="/Resume" style={{ textDecoration: 'none' }} >
                             <div className="shadow-pop-tr">
                                 <div className="Hr"></div>
                                 <img className='HRimg' src={require('../img/HR.png')} alt="" ></img>
                             </div>
                         </Link>
                         <br/>
-                        <h4>Reseume</h4>
+                        <h4>Resume</h4>
                         <p>"It's about me"</p>
                     </div>
                      <div>

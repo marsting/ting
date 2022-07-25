@@ -6,13 +6,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 1rem;
 }
 .aimg{
   width: 570px;
 }
 .atitle p{
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 .changetext{
   color: rgb(244, 161, 37);
@@ -91,9 +91,7 @@
  }
 }
 @media screen and (max-width: 1300px) {
-  .atitle p{
-    font-size: 3rem;
-  }
+ 
   .aimg{
     width: 500px;
   }
@@ -102,9 +100,6 @@
   .downarr{
     display: none;
   
-  }
-  .btnn{
-    gap: 3rem;
   }
 }
 @media screen and (max-width: 1100px) {

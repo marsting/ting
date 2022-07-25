@@ -129,6 +129,13 @@
     }
   }
 
+  @media screen and (max-width: 1200px) {
+  
+  .btnn{
+    gap: 3rem;
+  }
+
+  }
   @media screen and (max-width: 1000px) {
     .btnn{
       margin-top: 2rem;
@@ -137,8 +144,6 @@
     
   }
   }
-
-
  
  
   

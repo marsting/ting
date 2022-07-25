@@ -69,10 +69,7 @@ h3{
 }
 @media screen and (max-width:1100px) {
    
-    .Rtitle{
-        width: 400px;
-        
-    } 
+    
     .RContent{
         flex-direction: column;
         gap: 0;
@@ -90,12 +87,18 @@ h3{
     
     }
 }
+@media screen and (max-width: 1000px) {
+    .Rtitle{
+        width: 400px;
+        
+    } 
+}
 @media screen and (max-width: 500px) {
     .Rimg{
         width: 300px;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   
     .Rtitle{
         width: 250px;

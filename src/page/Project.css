@@ -296,6 +296,7 @@ li{
     }
     .list1{
         width: 50%;
+        margin-left: 6rem;
     }
     .list2{
         width: 50%;
@@ -383,6 +384,7 @@ li{
     }
     .list1{
         width: 100%;
+        margin-left: 0;
     }
     .list2{
         width: 100%;

@@ -4,10 +4,7 @@ p, h1, h2, h3,h4,h5,h6,div{
 p{
   font-size: 1.2rem;
 }
-main{
-  background: #F6F6F6;
-  background-size: cover;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

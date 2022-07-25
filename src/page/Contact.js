@@ -49,6 +49,7 @@ function Contact (){
                         <div className='lineS'></div>
                     </div>
                 </div>
+                
         </div>
     
        

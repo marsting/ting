@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5rem;
+  gap: 3rem;
 }
 .aimg{
   width: 570px;
@@ -94,12 +94,20 @@
   .atitle p{
     font-size: 3rem;
   }
+  .aimg{
+    width: 500px;
+  }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .downarr{
     display: none;
   
+  }
+  .btnn{
+    gap: 3rem;
+  }
 }
+@media screen and (max-width: 1100px) {
   .acontent{
     flex-direction: column;
   }

@@ -31,7 +31,7 @@ function Navbar (){
             {/* </div> */}
             </Link>
             <div className='NBtn'>
-               <Link to="/Reseume" style={{ textDecoration: 'none' }} ><p className="mt" >RESEUME</p></Link>
+               <Link to="/Resume" style={{ textDecoration: 'none' }} ><p className="mt" >RESEUME</p></Link>
                <Link to="/Project" style={{ textDecoration: 'none' }} ><p className="mt" >PROJECT</p></Link>
                <Link to="/Contact" style={{ textDecoration: 'none' }} ><p className="mt" >CONTACT</p></Link>
             </div>

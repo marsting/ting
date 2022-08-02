@@ -316,7 +316,7 @@ li{
     }
     .pBg{
         width: 300px;
-        height: 400px;
+        height: 350px;
       
         position: relative;
         
@@ -327,14 +327,14 @@ li{
         position: absolute;
         width: 280px;
         
-        margin: 0 1rem;
+        margin: -1.5rem 1rem;
         
         transform: scale(1,1);
         transition: all 1s ease-out;
     }
     .BLOGO{
       
-        margin: 0 1rem;
+        margin: -1.5rem 1rem;
         z-index: 2;
         position: absolute;
         width: 280px;
@@ -343,7 +343,7 @@ li{
     }
     .tape{
         margin-left: 8rem;
-        margin-top:-27rem ;
+        margin-top:-25rem ;
     }
     .allm{
         width: 300px;
@@ -353,8 +353,10 @@ li{
        
     }
     .pcard{
-        margin: 0 auto;
-      
+        
+      display: flex;
+      flex-direction: column;
+      align-items: center;
         padding-bottom: 4rem;
 
     }
@@ -420,9 +422,9 @@ li{
     .wv,.mv{
         display: none;
     }
-    .pcard{
+    /* .pcard{
        margin-left: -2.5rem;
-    }
+    } */
     .HLogo{
         width: 300px;
     }

@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/ting/static/css/main.6736be99.css",
+    "main.js": "/ting/static/js/main.db5ef651.js",
+    "static/js/787.6142630f.chunk.js": "/ting/static/js/787.6142630f.chunk.js",
+    "static/media/N.png": "/ting/static/media/N.fcf87cf62e2061d8cce4.png",
+    "static/media/CP1.png": "/ting/static/media/CP1.fb477625b033301f0792.png",
+    "static/media/RP1.png": "/ting/static/media/RP1.55575780718e38846058.png",
+    "static/media/pBg.jpg": "/ting/static/media/pBg.d8b559009e74d367f425.jpg",
+    "static/media/ticket.png": "/ting/static/media/ticket.1e7db44e8b6390b5253c.png",
+    "static/media/poster.jpg": "/ting/static/media/poster.ceb40eb2a96c6657cfa6.jpg",
+    "static/media/flyer.png": "/ting/static/media/flyer.512723f92a67c649d33e.png",
+    "static/media/burner.png": "/ting/static/media/burner.4d2a7321eeadd4829766.png",
+    "static/media/好室咖啡拷貝.png": "/ting/static/media/好室咖啡拷貝.15b6702949cd42e34bbb.png",
+    "static/media/HR.png": "/ting/static/media/HR.589d8709fffa9b7777ce.png",
+    "static/media/HC.png": "/ting/static/media/HC.808133c3e229f3b324d5.png",
+    "static/media/RESUME.png": "/ting/static/media/RESUME.8266ab689a8d858b951e.png",
+    "static/media/contact.png": "/ting/static/media/contact.3a5b5be643682b0f66f6.png",
+    "static/media/PROJECT.png": "/ting/static/media/PROJECT.c16b9571308b53904eab.png",
+    "static/media/quicksand-latin-600.woff": "/ting/static/media/quicksand-latin-600.6891aedf32783ef69334.woff",
+    "static/media/quicksand-latin-500.woff": "/ting/static/media/quicksand-latin-500.e16bfdc463d3fa68fe5b.woff",
+    "static/media/quicksand-latin-400.woff": "/ting/static/media/quicksand-latin-400.558969494c5e2743f1cf.woff",
+    "static/media/quicksand-latin-300.woff": "/ting/static/media/quicksand-latin-300.c7342fbf45ae28f68801.woff",
+    "static/media/quicksand-latin-700.woff": "/ting/static/media/quicksand-latin-700.82849a6e9f5978535d52.woff",
+    "static/media/quicksand-latin-600.woff2": "/ting/static/media/quicksand-latin-600.07a3480d288293229838.woff2",
+    "static/media/quicksand-latin-400.woff2": "/ting/static/media/quicksand-latin-400.4632f3d10356442aa7a6.woff2",
+    "static/media/quicksand-latin-500.woff2": "/ting/static/media/quicksand-latin-500.4ff6e5b9ccdb25199651.woff2",
+    "static/media/quicksand-latin-700.woff2": "/ting/static/media/quicksand-latin-700.e38cff2ded151dda276f.woff2",
+    "static/media/HP.png": "/ting/static/media/HP.569bc43cf6031be92c89.png",
+    "static/media/quicksand-latin-300.woff2": "/ting/static/media/quicksand-latin-300.c21933f51b34fd58090f.woff2",
+    "index.html": "/ting/index.html",
+    "main.6736be99.css.map": "/ting/static/css/main.6736be99.css.map",
+    "main.db5ef651.js.map": "/ting/static/js/main.db5ef651.js.map",
+    "787.6142630f.chunk.js.map": "/ting/static/js/787.6142630f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6736be99.css",
+    "static/js/main.db5ef651.js"
+  ]
+}
